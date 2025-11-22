@@ -1,6 +1,3 @@
-# Python-Projects
-A quick repo to show my growth as a Python developer.
-
 # Python Learning Journey
 
 This repository documents my ongoing growth as I learn Python from the ground up.  
