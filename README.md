@@ -14,6 +14,19 @@ My long-term goal is to become a cybersecurity professional with strong scriptin
 
 Each folder or script is labeled with a **skill level** and includes a short description of the concepts practiced.
 
+## Repository Structure
+
+python-learning-journey/
+├── README.md
+├── beginners/
+│ ├── password_strength_checker/
+│ ├── log_file_word_counter/
+│ ├── simple_port_scanner/
+│ ├── todo_cli_app/
+│ └── random_password_generator/
+├── intermediate/
+└── security_projects/
+
 ## Roadmap
 1. **Fundamentals** – Variables, loops, functions, file handling  
 2. **Intermediate** – APIs, error handling, modular code, automation  
