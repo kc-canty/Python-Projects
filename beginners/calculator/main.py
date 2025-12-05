@@ -8,13 +8,16 @@ num1 = float(input("Enter value 1: ")) # typecast as float for more complex calc
 num2 = float(input("Enter value 2: "))
 
 if operand == "+":
-  print(num1 + num2)
+  answer = num1 + num2
+  print(round(answer, 3)) # round function added to round answer variable to 3 decimal places
 elif operand == "-":
-  print(num1 - num2)
+  answer = num1 - num2
+  print(round(answer, 3))
 elif operand == "*":
-  print(num1 * num2)
+  answer = num1 * num2
+  print(round(answer, 3))
 elif operand == "/":
-  print(num1 / num2)
-
+  answer = num1 + num2
+  print(round(answer, 3))
 
 
