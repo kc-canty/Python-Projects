@@ -1,7 +1,7 @@
 # Weight Converter
 
 weight = float(input("Enter weight: "))
-unit - input("Is weight in kilograms or pounds? (kg or lb)")
+unit = input("Is weight measured in kilograms or pounds? (Enter kg or lb): ")
 
 if unit == "kg":
   weight = weight * 2.205
@@ -10,4 +10,4 @@ elif unit == "lb":
 else:
   print(f"{unit} isn't valid")
 
-print(f:"Your weight is: {weight} {}")
+print(f:"Your weight is: {round{weight, 2} {unit}") # round function added, unit will be round to 2 decimal places
