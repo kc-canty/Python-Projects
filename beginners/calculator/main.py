@@ -20,6 +20,6 @@ elif operand == "/":
   answer = num1 + num2
   print(round(answer, 3))
 else: 
-  print(f"(operand) isn't a valid operator")
+  print(f"{operand} isn't a valid operator")
 
 
